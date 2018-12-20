@@ -1,7 +1,15 @@
 @import "./abstracts/variables";
+@import "./abstracts/mixins";
 @import "./layout/header";
+@import "./layout/grid"; 
 
 
 @import "./base/base";
 @import "./base/animations";
 @import "./base/typography";
+@import "./base/utilities";
+
+@import "./components/composition";
+
+@import "./pages/home.scss";
+
